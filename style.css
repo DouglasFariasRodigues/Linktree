@@ -7,7 +7,6 @@
 }
 
 h1{
-    padding-bottom: 20px;
     font-family: Inter;
     font-size: 20px;
     margin-left: 5%;
@@ -33,7 +32,7 @@ body{
     border-radius: 5%;
     display: grid;
     background-color: #404B62;
-    max-height: 500px;
+    max-height: 600px;
     width: 100%;
     max-width: 350px;
     padding-top: 20px;
