@@ -32,11 +32,10 @@ body{
     border-radius: 5%;
     display: grid;
     background-color: #404B62;
-    height: 100dvh;
     max-height: 500px;
     width: 100%;
     max-width: 350px;
-
+    padding-top: 20px;
 }
 
 .Area-links{
@@ -47,7 +46,6 @@ body{
 
 
 img{
-    margin-top: 10%;
     max-height: 15dvh;
     min-width: 15dvh;
     object-fit: cover;
