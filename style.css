@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-family: Inter;
+    font-size: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+body{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 100dvh;
+    background-color: #1F2430;
+}
+
+.container{
+    color:whitesmoke;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    border: 1px black solid;
+    border-radius: 5%;
+    display: grid;
+    background-color: #404B62;
+    height: 100dvh;
+    max-height: 500px;
+    width: 100%;
+    max-width: 350px;
+
+}
+
+.Area-links{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+
+img{
+    margin-top: 10%;
+    max-height: 15dvh;
+    min-width: 15dvh;
+    object-fit: cover;
+    border-radius: 90%;
+    border: solid 2px #1E1E1E;
+}
+
+a{
+    text-decoration: none;
+    color: #1F2430
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 12px;
+  text-align: center;
+  background-color: #404b62;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 12px;
+  border: white solid 1px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #4f5d7a;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
